@@ -19,8 +19,8 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
-$mail->Username = ""; //User Name to use for SMTP authentication
-$mail->Password = ""; //Password to use for SMTP authentication
+$mail->Username = "mondal.shubha@gmail.com"; //User Name to use for SMTP authentication
+$mail->Password = "shubhamondal"; //Password to use for SMTP authentication
 
 $mail->setFrom($email_from, $first_name. ' '.$last_name);
 $mail->addReplyTo($email_from, $first_name. ' '.$last_name);
